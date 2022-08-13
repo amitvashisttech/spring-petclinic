@@ -392,5 +392,11 @@
       </build>
     </profile>
   </profiles>
-
+<distributionManagement>
+  <repository>
+    <id>petclinic-av-petclinic-av-s3</id>
+    <name>petclinic-av-petclinic-av-s3</name>
+    <url>https://petclinic-av-670154208195.d.codeartifact.us-east-1.amazonaws.com/maven/petclinic-av-s3/</url>
+  </repository>
+</distributionManagement>
 </project>
